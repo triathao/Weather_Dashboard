@@ -1,24 +1,49 @@
 h1 {
-    background-color: yellowgreen;
-    height: 125px;
+    background-color: rgb(250, 210, 75);
+    height: 130px;
     width: 100%;
-    color: red;
     margin: auto;
     
 }
 
-body {
-    background-image: url("https://github.com/triathao/Weather_Dashboard/blob/master/Assets/wayne-low-kJNOYBetxh0-unsplash.jpg?raw=true");
-    background-repeat: no-repeat;
-    background-size: 1200px;
-   }
+
 
 img {
-    width: 200px;
-    padding: 25px;
+    width: 150px;
+    padding: 35px;
 }
 
-.topnav {
-    overflow: hidden;
-    background-color: #47f4f7;
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 300px;
+    vertical-align: middle;
+}
+
+.currentConditions {
+    width: 200px;
+    height: 100px;
+    width: 50%;
+  }
+  
+.currentConditions:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  .currentCondition {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 25px;
+    border: 2px solid rgb(14, 6, 6);
+    text-align: center;
+    width: 75vw;
+    height: 15vw;
+
+  }
+
+  .conditionContent{
+      text-align: left;
+      margin: 8px;
   }

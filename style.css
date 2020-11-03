@@ -1,11 +1,18 @@
 h1 {
-    background-color: rgb(255, 237, 97);
+    background-color: yellowgreen;
     height: 125px;
     width: 100%;
     color: red;
     margin: auto;
     
 }
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1472190649224-495422e1b602?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 1200px;
+   }
 
 img {
     width: 200px;

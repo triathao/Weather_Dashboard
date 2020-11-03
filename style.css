@@ -1,8 +1,18 @@
 h1 {
-    background-color: rgb(163, 225, 252);
-    height: 100px;
+    background-color: rgb(255, 237, 97);
+    height: 125px;
     width: 100%;
     color: red;
     margin: auto;
     
 }
+
+img {
+    width: 200px;
+    padding: 25px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #47f4f7;
+  }

@@ -1,49 +1,14 @@
 h1 {
-    background-color: rgb(250, 210, 75);
-    height: 130px;
+    background-color: rgb(104, 181, 240);
+    height: 110px;
     width: 100%;
     margin: auto;
     
 }
 
-
-
 img {
-    width: 175px;
+    width: 300px;
     padding: 25px;
 }
 
 
-.form-inline .form-control {
-    display: inline-block;
-    width: 300px;
-    vertical-align: middle;
-}
-
-.currentConditions {
-    width: 200px;
-    height: 100px;
-    width: 50%;
-  }
-  
-.currentConditions:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-  }
-
-  .currentCondition {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    margin: 25px;
-    border: 2px solid rgb(14, 6, 6);
-    text-align: center;
-    width: 75vw;
-    height: 15vw;
-
-  }
-
-  .conditionContent{
-      text-align: left;
-      margin: 8px;
-  }

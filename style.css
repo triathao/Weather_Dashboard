@@ -2,22 +2,32 @@ body {
     background-color: rgb(107, 216, 255);
 }
 
-.logo {
-    width: 250px;
+p {
+    text-align: center;
+    color:rgb(107, 216, 255);
+}
+
+h1 {
+    text-align: center;
+    color: white;
 }
 
 .jumbotron {
-    height: 60px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(10, 11, 80);
+    margin: 0px;
+    padding: 20px;
+    background-color: rgb(23, 23, 78);
 }
 
-.search-box {
-    align-content: center;
-    margin: 10px;
-    float: right;
-    color: rgb(6, 6, 0);
-    width: 300px;
-    height: 30px;
+
+.form-row {
+    padding: 10px 25px;
 }
 
+.list-group {
+    padding: 2px 25px;
+    float: left;
+}
+
+.card-mb-3{
+    padding: 15px;
+}

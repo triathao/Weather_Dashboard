@@ -17,7 +17,11 @@ h1 {
     padding: 20px;
     background-color: rgb(23, 23, 78);
 }
-
+    
+input[type="submit"]{
+    width: 75px;
+   
+}
 
 .form-row {
     padding: 10px 25px;
@@ -30,4 +34,8 @@ h1 {
 
 .card-mb-3{
     padding: 15px;
+}
+
+.list-group-item.active {
+    background-color: rgb(23, 23, 78);
 }

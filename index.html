@@ -7,29 +7,32 @@
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="script.js">
+<link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
           <h1 class="display-4">Weather Dashboard</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p class="lead">Access current weather data for any location on Earth including over 200,000 cities!</p>
         </div>
       </div>
 
-    
+      <!--
+      <div class="input"> 
+          <input type="text" class="inputValue" placeholder="Search City, State, Zip">
+          <input type="submit" value="Submit">
+      </div>
+-->
+
       <form>
         <div class="form-row">
           <div class="col-7">
-            <input type="text" class="form-control" placeholder="City">
+            <input type="text" class="form-control" placeholder="City, Zip">
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="State">
-          </div>
-          <div class="col">
-            <input type="text" class="form-control" placeholder="Zip">
+            <input type="submit" class="form-control">
           </div>
         </div>
       </form>
@@ -37,19 +40,19 @@
      <div>
       <ul class="list-group">
         <li class="list-group-item active">Major Cities</li>
-        <li class="list-group-item">New York, NY</li>
-        <li class="list-group-item">Los Angeles, CA</li>
-        <li class="list-group-item">Chicago, IL</li>
-        <li class="list-group-item">Houston, TX</li>
-        <li class="list-group-item">Phoenix, AZ</li>
-        <li class="list-group-item">Philadelphia, PA</li>
-        <li class="list-group-item">San Antonio, TX</li>
-        <li class="list-group-item">San Francisco, CA</li>
+        <li class="list-group-item" input type="submit">New York, NY</li>
+        <li class="list-group-item" input type="submit">Los Angeles, CA</li>
+        <li class="list-group-item" input type="submit">Chicago, IL</li>
+        <li class="list-group-item" input type="submit">Houston, TX</li>
+        <li class="list-group-item" input type="submit">Phoenix, AZ</li>
+        <li class="list-group-item" input type="submit">Philadelphia, PA</li>
+        <li class="list-group-item" input type="submit">San Antonio, TX</li>
+        <li class="list-group-item" input type="submit">San Francisco, CA</li>
       </ul>      
     </div>
+
       <div class="container">
       <div class="card mb-3">
-        <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Current Weather</h5>
           <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -62,7 +65,6 @@
     <div class="container">
     <div class="card-group">
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -70,7 +72,14 @@
     </div>
   </div>
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+
+  <div class="card">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -78,7 +87,6 @@
     </div>
   </div>
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -86,23 +94,23 @@
     </div>
   </div>
   <div class="card">
-    <img src="..." class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text">
+        <li>Temperature: </li>
+        <li>Humidity: </li>
+        <li>Pressure:</li>
+        <li>Visibility:</li>
+      </p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>
 </div> 
 </div>
+
+<script src="./script.js"></script>
+
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 
 </body>
 </html>

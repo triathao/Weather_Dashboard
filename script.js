@@ -1,4 +1,13 @@
+var apikey = "fa62741cbe1bbb117e7949e530a3f6d3"
+console.log(apikey)
 
-var APIKey = "c3d0f29814b481642813d98d1c0b610c"
-var search = document.querySelector("#input")
+var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + "sacramento" + "&appid=" + apikey;
 
+console.log(queryURL)
+
+$.ajax({
+    url: queryURL,
+    method: "GET"
+}).then (function(response){
+
+})

@@ -2,16 +2,19 @@ body {
     background-color: rgb(107, 216, 255);
 }
 
+.logo {
+    width: 250px;
+}
+
 .jumbotron {
-    align-content: center;
-    height: 150px;
+    height: 60px;
     color: rgb(255, 255, 255);
     background-color: rgb(10, 11, 80);
 }
 
 .search-box {
-
-    margin: 20px;
+    align-content: center;
+    margin: 10px;
     float: right;
     color: rgb(6, 6, 0);
     width: 300px;

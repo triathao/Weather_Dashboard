@@ -6,7 +6,7 @@
 
 //API key from Weathermap.org
 var apiKey = "fa62741cbe1bbb117e7949e530a3f6d3";
-console.log(apiKey)
+//console.log(apiKey)
 var searchKey = "";
 $(document).ready(function(){
     $("#submit").click(function(){
@@ -28,7 +28,7 @@ $(document).ready(function(){
                     var result = outputData(data);
                     $("#outputData").html(result);
                     $("#outputData").val("");
-                console.log(data)
+                //console.log(data)
                 }
             }) 
         }

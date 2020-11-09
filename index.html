@@ -19,24 +19,31 @@
         </div>
       </div>
 
+      <div>
+        <input type="text" value="Sacramento" name="Location" id="location">
+        <button id="submit">Submit</button>
+        <br>
+        
+      </div>
+
       <!--
       <div class="input"> 
           <input type="text" class="inputValue" placeholder="Search City, State, Zip">
           <input type="submit" value="Submit">
       </div>
 -->
-
+    <!--
       <form>
         <div class="form-row">
           <div class="col-7">
-            <input type="text" class="form-control" placeholder="City, Zip">
+            <input type="text" value="Sacramento" name="location" id="location" class="form-control" placeholder="City Name">
           </div>
           <div class="col">
             <input type="submit" class="form-control">
           </div>
         </div>
       </form>
-
+-->
      <div>
       <ul class="list-group">
         <li class="list-group-item active">Major Cities</li>
@@ -54,9 +61,11 @@
       <div class="container">
       <div class="card mb-3">
         <div class="card-body">
-          <h5 class="card-title">Current Weather</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          
+          <div class="locationCity"></div>
+          <div class="weather-conatiner">
+            <div id="outputData"></div>
+          </div>
         </div>
       </div>
       
